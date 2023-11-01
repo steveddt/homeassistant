@@ -4,7 +4,7 @@ blueprint:
      With this you can control a Novy hood through a numeric input.
      Requirements: RFXTRX integration, a Numeric Input Helper with a range of 0 - 4 and step size of 1. 0 is off, 1-3 are regular speeds, 4 is boost.
   domain: automation
-  source_url: https://github.com/steveddt/homeassistant/novy.yaml
+  source_url: https://github.com/steveddt/homeassistant/blob/main/Novy.yaml
   input:
     speed_input:
       name: Numeric Input for speed
@@ -17,13 +17,13 @@ blueprint:
       selector:
         text:
       default: "08170B090000000100"
-	command_off:
+    command_off:
       name: Command Off
       description: "Command to disactivate"
       selector:
         text:
       default: "08170B000000000100"  
-	command_up:
+    command_up:
       name: Command Up
       description: "Command to send to increase speed"
       selector:
