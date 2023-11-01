@@ -35,7 +35,7 @@ blueprint:
       selector:
         text:
       default: "08170B0D0000000300"
-	command_light:
+    command_light:
       name: Command Light
       description: "Command to toggle the light"
       selector:
