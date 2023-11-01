@@ -40,7 +40,7 @@ blueprint:
       description: "Command to toggle the light"
       selector:
         text:
-      default: "08170B010000020400"
+      default: "08170B090000000400"
     timer_boost:
       name: Boost Timer
       description: "Timer for boost function, set shorter than internal hood timer"
